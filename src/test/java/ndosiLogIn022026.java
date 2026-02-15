@@ -1,18 +1,17 @@
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.time.Duration;
 
-public class NdosiLogIn022026 {
+public class ndosiLogIn022026 {
 
     WebDriver driver;
     @Test
-    public void loginWithValidCredentialsa() throws InterruptedException{
+    public void loginWithValidCredentials() {
 
         WebDriverWait wait= new WebDriverWait(driver,Duration.ofSeconds(5));
 
@@ -31,8 +30,7 @@ public class NdosiLogIn022026 {
                 "Here's an overview of your learning journey");
 
 
-
-
+        }
 
     }
-}
+
